@@ -1,5 +1,7 @@
 package basicconcept;
 
-public class A {
-
+public interface A {
+	
+	public void methodA();
+	public void methodB();
 }
