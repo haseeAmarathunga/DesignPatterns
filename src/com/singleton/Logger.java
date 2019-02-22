@@ -2,9 +2,9 @@ package com.singleton;
 
 public class Logger {
 	
-	public static Logger logger;
+	private static Logger logger;
 	
-	public Logger() {
+	private Logger() {
 		
 	}
 	
