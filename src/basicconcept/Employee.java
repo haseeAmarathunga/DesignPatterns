@@ -1,6 +1,6 @@
 package basicconcept;
 
-public class Employee {
+public class Employee{
 	int empId;
 	String empName;
 	double salary;

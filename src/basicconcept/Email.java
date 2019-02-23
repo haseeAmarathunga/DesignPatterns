@@ -1,5 +1,5 @@
 package basicconcept;
 
-public class Email {
-
+public interface Email {
+	public void sendEmail();
 }

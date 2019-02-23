@@ -4,10 +4,13 @@ public class TestEmployee {
 
 	public static void main(String args[])
 	{
-		Employee obj1 = new Employee(100, "Hasee");
+		Email email =new OutlookEmail();
+		Employee obj1 = new Employee(100, "Hasee",email);
 		obj1.notifyEmployee();
 		
-		Employee obj2=new Employee(101,"Sam");
+		email=new WebserviceEmail();
+		Employee obj2=new Employee(101,"Sam",email);
+		obj2.notifyEmployee();
 	
 	}
 }
