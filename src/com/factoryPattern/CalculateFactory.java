@@ -15,7 +15,7 @@ public class CalculateFactory {
 			obj=new Subtract();
 		}
 		
-		else if(type.toLowerCase().equals("devide"))
+		else if(type.toLowerCase().equals("divide"))
 		{
 			obj=new Divide();
 		}

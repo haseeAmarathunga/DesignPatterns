@@ -17,7 +17,12 @@ public class Test {
 		CalculateFactory factory=new CalculateFactory();
 		Calculate obj = factory.getCalculation(input.next());
 		
-		obj.calculate(num1, num2);
+		try {
+			obj.calculate(num1, num2);
+		}catch(NullPointerException e) {
+			
+		}
+		
 
 	}
 
