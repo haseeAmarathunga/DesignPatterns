@@ -11,7 +11,6 @@ public class StudentBO {
 		students = new ArrayList<StudentTO>();
 		StudentTO stu1 =new StudentTO("Hasee",0);
 		StudentTO stu2 =new StudentTO("Kamal",1);
-		
 		students.add(stu1);
 		students.add(stu2);		
 	}

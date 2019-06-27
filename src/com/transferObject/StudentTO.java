@@ -4,6 +4,7 @@ package com.transferObject;
 public class StudentTO {
 	String name;
 	int id;
+	
 	public StudentTO(String name, int id) {
 		this.name = name;
 		this.id = id;

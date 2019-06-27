@@ -4,9 +4,7 @@ public class Logger {
 	
 	private static Logger logger;
 	
-	private Logger() {
-		
-	}
+	private Logger() {}
 	
 	public static Logger getInstance() {
 		if(logger == null) {

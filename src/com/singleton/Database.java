@@ -4,9 +4,7 @@ public class Database {
 	
 	private static Database db;
 	
-	private Database() {
-		
-	}
+	private Database() {}
 	
 	public static Database getInstance() {
 		if(db == null) {
